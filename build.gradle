@@ -1,0 +1,12 @@
+plugins {
+  id 'java'
+  id "com.katalon.gradle-plugin" version "0.0.7"
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+	compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '3.8.1'
+}
